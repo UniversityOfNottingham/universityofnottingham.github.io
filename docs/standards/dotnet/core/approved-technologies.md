@@ -52,7 +52,7 @@
         Renders a string as a Razor View, allowing for rich email templating.
 
 ??? summary "Error Logging"
-    !!! success "NLog"
+    !!! success "SeriLog"
 
 ??? summary "Unit Testing"
     !!! success "XUnit"
