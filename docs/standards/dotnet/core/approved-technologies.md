@@ -46,6 +46,8 @@
 ??? summary "Email sending"
     !!! success "Mailkit"
         Configures and performs spec compliant email tasks such as sending over SMTP.
+    !!! success "SendGrid"
+        Configures and performs email sending via the SendGrid API.
     !!! success "UoN.AspNetCore.RazorViewRenderer"
         Renders a string as a Razor View, allowing for rich email templating.
 
