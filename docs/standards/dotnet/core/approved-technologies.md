@@ -73,3 +73,10 @@
 
 ??? summary "Reading / writing CSV files"
     !!! success "CsvHelper"
+
+??? summary "Parsing and rendering Markdown"
+    !!! success "Westwind.AspNetCore.Markdown"
+        - supports rendering in Razor Views via a TagHelper
+        - supports parsing in C# and Razor using static methods
+
+        [Documentation](https://weblog.west-wind.com/posts/2018/Mar/23/Creating-an-ASPNET-Core-Markdown-TagHelper-and-Parser)
