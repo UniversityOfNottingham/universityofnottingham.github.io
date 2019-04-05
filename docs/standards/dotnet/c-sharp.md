@@ -153,7 +153,7 @@
     - your IDE will tell you how to use the method anyway
     
     ```csharp
-    public Task<IEnumerable<Thingy>> GetAsync()
+    public async Task<IEnumerable<Thingy>> GetAsync()
     {
         return await _thingRepo.List();
     }
