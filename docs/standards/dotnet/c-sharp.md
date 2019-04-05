@@ -148,7 +148,7 @@
     public IEnumerable<Thing> GetAllTheThings() =>
         _thingRepo.List();
     ```
-??? success "Only use async in the naming suffix when there is no corresponding synchronous method"
+??? warning "Only use `Async` in the naming suffix when there is a corresponding synchronous method"
     - this keeps method names simpler
     - your IDE will tell you how to use the method anyway
     
