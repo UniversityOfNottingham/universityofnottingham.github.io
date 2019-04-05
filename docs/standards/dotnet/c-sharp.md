@@ -158,7 +158,7 @@
         return await _thingRepo.List();
     }
     
-    public IENumerable<Thingy> Get()
+    public IEnumerable<Thingy> Get()
     {
         return _otherThingRepo.List();
     }
