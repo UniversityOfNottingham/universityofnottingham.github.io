@@ -32,5 +32,6 @@
 
     Unless the variable is being used or manipulated further in the function, it must not be assigned to a variable.
     Instead the result should be returned directly.
+    The method name should be sufficient for callers to know exactly what will be returned.
 
 [PSR-2]: http://www.php-fig.org/psr/psr-2/
