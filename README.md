@@ -50,7 +50,7 @@ These can be corrections, additions, or just suggestions.
 
 ### PyMdown Extensions
 
-We have a bunch of `PyMdown` Exetnsions enabled. More can be enabled if required.
+We have a bunch of `PyMdown` Extensions enabled. More can be enabled if required.
 
 Refer to `mkdocs.yml` and the [MkDocs] and [PyMdown Extensions] documentation.
 
