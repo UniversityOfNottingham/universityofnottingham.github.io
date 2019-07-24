@@ -1,11 +1,11 @@
 ## 1. Create the Repository
 
-In the Azure DevOps menu, navigate to the **Repos** page. From the drop-down where you can select an existing repository, select **New Repository** (or from the + menu next to **ProductCentre.Main**, select **New repository**).
+In the Azure DevOps menu, navigate to the **Repos** page. From the drop-down where you can select an existing repository, select **New Repository** (or from the + menu near the top left of the screen, select **New repository**).
 
 Name the repo appropriately
 !!! note "TODO - Standards for Naming Repos"
 
-Check the box to add a README, and add a .gitignore (e.g. for Visual Studio projects, select Visual Studio from the dropdown).
+Check the box to add a `README`, and add a `.gitignore` (e.g. for Visual Studio projects, select Visual Studio from the dropdown).
 
 Click **Create**.
 
@@ -76,13 +76,13 @@ Keep the default options:
 
 Clone the Repo.
 
-Create a branch called `create-solution`.
+Create a branch.
 
-Create your initial bare-bones solution within that branch.
+Create your initial bare-bones project/solution within that branch.
 
 Make sure to edit the pipeline YAML file to define the appropriate build step(s) and demands.
 
-For example, for a .Net project, this specifies a dotnet build step, and demands that the server chosen from the `Default` pool to perform the build must have `dotnet`:
+For example, for a `dotnet sdk` project, the following specifies a `dotnet build` step, and demands that the server chosen from the `Default` pool to perform the build must have `dotnet`:
 
 ```yaml
 trigger:
@@ -96,4 +96,4 @@ steps:
 - script: 'dotnet build'
 ```
 
-Finally, push all your changes and make a pull request to merge the `create-solution` branch to `master`.
+Finally, push all your changes and make a pull request to merge your branch to `master`.
