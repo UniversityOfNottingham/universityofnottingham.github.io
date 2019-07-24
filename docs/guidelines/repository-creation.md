@@ -4,7 +4,7 @@ In the Azure DevOps menu, navigate to the Repos page. From the drop-down where y
 
 Name the repo appropriately (TODO: Standards for Naming Repos).
 
-Check the box to add a README, and add a .gitignore (select Visual Studio from the dropdown).
+Check the box to add a README, and add a .gitignore (for Visual Studio projects, select Visual Studio from the dropdown).
 
 Click Create.
 
