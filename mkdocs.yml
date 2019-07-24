@@ -51,7 +51,7 @@ nav:
   - Guidelines:
     - Recommended Tools: guidelines/recommended-tools.md
     - Packages: guidelines/packages.md
-    - Creating a Repository in Azure DevOps: repository-creation.md
+    - Creating a Repository in Azure DevOps: guidelines/repository-creation.md
     - .NET:
       - Starting a new Project: guidelines/dotnet/new-project.md
       - .NET Framework Environment Setup: guidelines/dotnet/fx-environment-setup.md
