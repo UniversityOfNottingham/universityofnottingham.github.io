@@ -48,7 +48,7 @@ steps:
 - script: '|'
 ```
 
-Click the button at top right to **Save and run** the pipeline. Keep the default commit message. Select the option to **Create a new branch for this commit and start a pull request**, and keep the default name, then click the button to **Save and run**.
+Click the button at top right to **Save and run** the pipeline. Select the option to **Create a new branch for this commit and start a pull request**, then click the button to **Save and run**.
 
 The build will fail, because of the change we made to the pipeline YAML file. This is by design: at this point, we want a failing pipeline build in order to ensure that later, when a project is created, a suitable, passing, code-reviewed pipeline build step, appropriate for the project type (rather than the default, generic, always-passing pipeline build steps) must be added to the pipeline YAML in order to merge the project into master.
 
