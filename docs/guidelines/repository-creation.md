@@ -16,7 +16,7 @@ With your new repo still selected, navigate to the **Branches** sub-menu.
 
 On the row for the `master` branch, from the **More Actions** context menu (next to the Commit number), select **Branch Policies**. Tick the following options:
 
-* **Require a minimum number of reviewers** (set the minimum number to 2)
+* **Require a minimum number of reviewers** (set the minimum number as required by team standards)
 * **Reset code reviewer votes when there are new changes**
 * **Check for linked work items** (select **Optional**)
 * **Check for comment resolution** (select **Required**)

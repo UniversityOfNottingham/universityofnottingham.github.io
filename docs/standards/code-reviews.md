@@ -7,7 +7,7 @@
 
 !!! info "Pull Requests must meet the following requirements to be merged."
     - Automated Build and Testing pass.
-    - At least one reviewer approves (who is not an author of the changes being merged).
+    - At least two reviewers approve (who are not an author of the changes being merged).
     - All review comments must be resolved.
 
 ## What do we review?
