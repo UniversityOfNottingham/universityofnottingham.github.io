@@ -2,7 +2,8 @@
 
 In the Azure DevOps menu, navigate to the **Repos** page. From the drop-down where you can select an existing repository, select **New Repository** (or from the + menu next to **ProductCentre.Main**, select **New repository**).
 
-Name the repo appropriately (TODO: Standards for Naming Repos).
+Name the repo appropriately
+!!! note "TODO - Standards for Naming Repos"
 
 Check the box to add a README, and add a .gitignore (for Visual Studio projects, select Visual Studio from the dropdown).
 
