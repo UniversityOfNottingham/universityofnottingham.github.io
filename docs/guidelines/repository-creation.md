@@ -5,12 +5,12 @@ In the Azure DevOps menu, navigate to the **Repos** page. From the drop-down whe
 Name the repo appropriately
 !!! note "TODO - Standards for Naming Repos"
 
-Check the box to add a README, and add a .gitignore (for Visual Studio projects, select Visual Studio from the dropdown).
+Check the box to add a README, and add a .gitignore (e.g. for Visual Studio projects, select Visual Studio from the dropdown).
 
 Click **Create**.
 
 
-## 2. Set Branch Policies for master
+## 2. Set Branch Policies for `master`
 
 With your new repo still selected, navigate to the **Branches** sub-menu.
 
