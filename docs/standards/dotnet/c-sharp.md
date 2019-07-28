@@ -148,6 +148,22 @@
     public IEnumerable<Thing> GetAllTheThings() =>
         _thingRepo.List();
     ```
+??? warning "Only use `Async` in the naming suffix when there is a corresponding synchronous method"
+    - this keeps method names simpler
+    - your IDE will tell you how to use the method anyway
+    - this follows a similar convention in node.js where the synchronous method is suffixed `sync`
+    
+    ```csharp
+    public async Task<IEnumerable<Thingy>> GetAsync()
+    {
+        return await _thingRepo.List();
+    }
+    
+    public IEnumerable<Thingy> Get()
+    {
+        return _otherThingRepo.List();
+    }
+    ```
 
 [Resharper]: https://www.jetbrains.com/resharper/
 [MS Conventions]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
